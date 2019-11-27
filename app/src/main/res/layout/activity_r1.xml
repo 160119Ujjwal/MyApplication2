@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R1Activity">
+
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnClick"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/amara" />
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnClick"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage1"
+        android:layout_toRightOf="@+id/ivImage1"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/doraemon" />
+
+    <ImageView
+        android:id="@+id/ivImage3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnClick"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage2"
+        android:layout_toRightOf="@+id/ivImage2"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/hattori" />
+
+    <ImageView
+        android:id="@+id/ivImage4"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage3"
+        android:layout_toRightOf="@+id/ivImage3"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/kenichi" />
+
+
+    <ImageView
+        android:id="@+id/ivImage5"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage2"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage4"
+        android:layout_toRightOf="@+id/ivImage4"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/niyander" />
+
+    <ImageView
+        android:id="@+id/ivImage6"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage3"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage5"
+        android:layout_toRightOf="@+id/ivImage5"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/nobita" />
+
+    <ImageView
+        android:id="@+id/ivImage7"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage4"
+        android:layout_marginStart="-406dp"
+        android:layout_marginLeft="-406dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage6"
+        android:layout_toRightOf="@+id/ivImage6"
+        android:scaleType="centerInside"
+        android:src="@drawable/perman"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivImage8"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage5"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage7"
+        android:layout_toRightOf="@+id/ivImage7"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/rich" />
+
+    <ImageView
+        android:id="@+id/ivImage9"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivImage6"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivImage8"
+        android:layout_toRightOf="@+id/ivImage8"
+        android:scaleType="centerInside"
+        android:visibility="invisible"
+        android:src="@drawable/shin" />
+
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Click"
+        />
+
+</RelativeLayout>

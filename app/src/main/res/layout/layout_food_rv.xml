@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/foodImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/momo"
+        />
+
+    <TextView
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:textSize="25dp"
+        android:text="Momo"
+        />
+
+    <TextView
+        android:id="@+id/foodCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodName"
+        android:textSize="25dp"
+        android:text="Veg"
+        />
+
+    <TextView
+        android:id="@+id/foodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodCat"
+        android:textSize="25dp"
+        android:text="Rs. 150"
+        />
+
+    <ImageView
+        android:id="@+id/foodImg1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/foodImg"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chowmein" />
+
+    <TextView
+        android:id="@+id/foodName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodPrice"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/foodImg"
+        android:text="Chowmein"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/foodCat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodName1"
+        android:textSize="25dp"
+        android:text="Veg"
+        />
+
+    <TextView
+        android:id="@+id/foodPrice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodCat1"
+        android:textSize="25dp"
+        android:text="Rs. 170"
+        />
+
+    <ImageView
+        android:id="@+id/foodImg2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/foodImg1"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/foodName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodPrice1"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/foodImg1"
+        android:text="Pizza"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/foodCat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodName2"
+        android:textSize="25dp"
+        android:text="Veg"
+        />
+
+    <TextView
+        android:id="@+id/foodPrice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/foodImg"
+        android:layout_below="@+id/foodCat2"
+        android:textSize="25dp"
+        android:text="Rs. 300"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Various Layouts"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnL1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Linear Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnG1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Grid Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnR1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Relative Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnC1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Constraint Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnT1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Table Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnF1"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Frame Layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRv"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Recycler View"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTool"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Toolbar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnFile"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="File"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnshare"
+            style="@style/btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Button Share Prefrence"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+</ScrollView>
